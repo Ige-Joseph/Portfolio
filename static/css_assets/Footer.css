@@ -1,0 +1,150 @@
+.FooterDiv{
+    padding-top: 1em;
+ margin-top: 6em;
+ box-shadow: 13px 10px 25px 1px rgb(255, 255, 255, 0);
+ border-radius: 15px;
+}
+
+.Footer-Line{
+    width: 90%;
+    height: 2px;
+    background: linear-gradient(45deg, #ffd900, #ff0077, #3E5151,  #ffd900, #ff0077);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.Connect{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.Socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.mail{
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.LastFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 0.3em 0.3em;
+}
+
+
+.LastFooterDetail{
+    font-size: 10px;
+    color: rgb(100, 99, 99);
+    padding: 0px 5px;
+}
+.JosephLink{
+    padding-left: 100px;
+}
+
+
+
+.Footer-LineContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.connectIcons{
+    height: 30px;
+
+}
+
+.mail-icon{
+    height: 10px;
+     margin-right: 0.2em;
+     vertical-align: middle;
+}
+
+
+
+
+
+.alignSocials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+
+.textSocialsLinkindIn{
+    margin-left: -15px;
+}
+
+
+.textSocialsWhatsapp{
+    margin-left: -40px;
+}
+
+
+.textSocialsGithub{
+    margin-left: -10px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+    .textSocialsLinkindIn{
+        margin-left: -12px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    
+    
+    .textSocialsWhatsapp{
+        margin-left: -34px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    
+    
+    .textSocialsGithub{
+        margin-left: -7px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+
+    .Socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.2em;
+    }
+
+    .LastFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0.5em;
+    }
+
+}
